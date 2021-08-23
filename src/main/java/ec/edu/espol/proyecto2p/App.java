@@ -18,11 +18,10 @@ public class App extends Application {
 
     @Override
     public void start(Stage stage) throws IOException {
-        scene = new Scene(loadFXML("vendedorLogin"), 720, 640);
+        scene = new Scene(loadFXML("ventana"),740, 600);
         stage.setScene(scene);
         stage.show();
         stage.setTitle("SYSTEM-POO");
-        stage.getIcons().add(new Image("img/icon.png"));
     }
 
     static void setRoot(String fxml) throws IOException {
